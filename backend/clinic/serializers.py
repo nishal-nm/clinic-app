@@ -1,7 +1,6 @@
 from rest_framework import serializers
 from .models import Doctor, Appointment
 from django.contrib.auth.models import User
-from datetime import date
 
 class DoctorSerializer(serializers.ModelSerializer):
     class Meta:
